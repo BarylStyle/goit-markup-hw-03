@@ -1,0 +1,262 @@
+:root {
+    --first-color-text: #2E2F42;
+
+    --color-white: #ffffff;
+    --iris: #4D5AE5;
+    --Ocean: #404BBF;
+    --cloud: #F4F4FD;
+    --SLATE: #434455;
+    --kolo4: #404bbf;
+
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    line-height: 1.6;
+}
+
+.main-section {
+    background-color: var(--color-white);
+}
+
+
+.all {
+    color: var(--color-white);
+    background-color: var(--iris);
+}
+
+.all:hover {
+    background-color: var(--Ocean);
+
+}
+
+.logo .link {
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--iris);
+
+}
+
+
+
+
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--cloud);
+    font-style: normal;
+
+}
+
+.highlight {
+    color: var(--iris);
+}
+
+.list {
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.list:hover {
+    color: var(--iris);
+}
+
+.contact {
+    font-style: normal;
+    color: var(--SLATE);
+}
+
+.contact:hover {
+    color: var(--Ocean);
+}
+
+.contakt-mail .link {
+    color: var(--SLATE);
+}
+
+.contakt-mail .link:hover,
+.contakt-mail .link:active {
+    color: var(--kolo4);
+}
+
+
+
+.heading {
+    color: var(--first-color-text);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+
+.p {
+    color: var(--first-color-text);
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+
+}
+
+
+
+.span {
+    color: var(--first-color-text);
+}
+
+.page-footer {
+    color: var(--cloud);
+    background-color: var(--first-color-text);
+}
+
+
+
+.logo-highlight {
+    color: var(--first-color-text);
+    text-decoration: none;
+}
+
+.footer-logo {
+    color: #f4f4fd;
+}
+
+.all {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    background-color: var(--cloud);
+    cursor: pointer
+}
+
+.all:hover {
+    color: #FFFFFF;
+    background-color: var(--Ocean);
+
+}
+
+.all:focus {
+    color: var(--color-white);
+    background-color: var(--Ocean);
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--SLATE);
+}
+
+.link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--first-color-text);
+    text-decoration: none;
+}
+
+
+
+.list .link:hover,
+.list .link:focus {
+    color: var(--Ocean);
+}
+
+.logo-highlight .link {
+    text-decoration: none;
+
+
+}
+
+.paragraph-footer {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+.first-section {
+    background-color: var(--first-color-text);
+}
+
+.first-section-h {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-white);
+}
+
+.button-first-section {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+
+}
+
+.paragraph-main {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--SLATE);
+
+}
+
+.section-hii {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--first-color-text);
+}
+
+.four-section {
+    background-color: var(--cloud);
+}
+
+.our-team {
+    background-color: var(--color-white);
+}
+
+.button-first-section:focus {
+    background-color: var(--kolo4);
+}
+
+.contakt-mail {
+    color: var(--SLATE);
+    font-weight: 400;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--iris);
+    font-style: normal;
+}
