@@ -442,6 +442,10 @@ body {
     line-height: 2em;
 }
 
+img {
+    display: block;
+}
+
 /* Flex  */
 
 .nav {
