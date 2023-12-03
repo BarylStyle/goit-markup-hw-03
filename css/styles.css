@@ -29,7 +29,7 @@ body {
 }
 
 .main-section {
-    border-bottom: #ececec solid 1px;
+    border-bottom: 1px solid #e7e9fc;
     background-color: var(--color-white);
 }
 
@@ -42,8 +42,9 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--iris);
-    display: inline-block;
-    margin-bottom: 16px;
+    padding: 24px 0;
+
+
 
 }
 
@@ -71,11 +72,13 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    gap: 40px;
 }
 
 .menu-item {
     margin-right: 46px;
     display: inline;
+
 }
 
 .menu-item:last-child {
@@ -93,6 +96,7 @@ body {
     text-decoration: none;
     display: flex;
     align-items: center;
+    gap: 40px;
 
 
 
@@ -249,6 +253,10 @@ body {
     letter-spacing: 0.02em;
     color: var(--first-color-text);
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
+
+
 }
 
 
@@ -377,8 +385,8 @@ body {
     text-transform: uppercase;
     color: var(--iris);
     font-style: normal;
+    margin-right: 76px;
 
-    margin-right: 93px;
 }
 
 .hero {
@@ -452,21 +460,16 @@ img {
 
 .nav {
     display: flex;
-
-
-
-
+    align-items: center;
 }
 
 
-
-
-/* zneta */
 .container {
     width: 100%;
     max-width: 1158px;
     margin: auto;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header {
