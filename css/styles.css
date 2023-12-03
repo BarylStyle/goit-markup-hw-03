@@ -3,11 +3,7 @@
     padding: 0;
 }
 
-*,
-::after,
-::before {
-    box-sizing: border-box;
-}
+
 
 :root {
     --first-color-text: #2E2F42;
@@ -73,6 +69,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .menu-item {
@@ -175,11 +172,12 @@ body {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.9em;
-    width: 200px;
-    min-height: 50px;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
 }
 
 .hero-btn:hover,
@@ -222,8 +220,7 @@ body {
 }
 
 .advantages {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding: 120px 0;
 }
 
 .advantages-item {
@@ -234,6 +231,17 @@ body {
 
 .advantages-item:last-child {
     margin-right: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 
 
@@ -293,6 +301,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--color-white);
     margin-bottom: 30px;
+    max-width: 496px;
 
 }
 
@@ -391,8 +400,7 @@ body {
 
 .hero {
     background-color: var(--first-color-text);
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding: 188px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -463,19 +471,18 @@ img {
     align-items: center;
 }
 
-
-.container {
-    width: 100%;
-    max-width: 1158px;
-    margin: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1158px;
+    margin: auto;
+    padding: 0 15px;
+
 }
