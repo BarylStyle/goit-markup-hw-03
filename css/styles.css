@@ -70,8 +70,8 @@ body {
 }
 
 .menu-item {
-    margin-right: 46px;
-    display: inline;
+    gap: 40px;
+    padding: 24px 0 24px;
 
 }
 
