@@ -412,11 +412,13 @@ body {
 
 .offer {
     text-align: center;
+    padding-bottom: 120px;
 }
 
 .offer-item {
     display: inline-block;
     margin-right: 20px;
+    width: calc((100% - 48px) / 3);
 }
 
 .offer-item:last-child {
