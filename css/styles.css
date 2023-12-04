@@ -94,10 +94,9 @@ body {
     display: flex;
     align-items: center;
     gap: 40px;
-
-
-
 }
+
+.list-buttons {}
 
 
 .list:hover {
