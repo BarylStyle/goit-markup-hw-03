@@ -91,7 +91,6 @@ body {
     display: flex;
     align-items: center;
     gap: 24px;
-
 }
 
 .list-buttons {
@@ -109,7 +108,6 @@ body {
 .contact {
     font-style: normal;
     color: var(--SLATE);
-    gap: 40px;
 }
 
 .contact:hover {
