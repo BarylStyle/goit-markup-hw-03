@@ -474,7 +474,11 @@ img {
 
 .nav {
     display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
     align-items: center;
+    gap: 40px;
+    list-style: none;
 }
 
 .header {
