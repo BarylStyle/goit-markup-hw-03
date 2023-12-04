@@ -61,13 +61,7 @@ body {
     color: var(--iris);
 }
 
-.menu-list {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 40px;
-    padding: 24px 0;
-}
+
 
 .menu-item {
     gap: 40px;
@@ -509,4 +503,12 @@ img {
 .team-list {
     display: flex;
     gap: 24px;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 24px 0;
 }
