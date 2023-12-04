@@ -290,11 +290,6 @@ body {
 
 }
 
-.team .section {
-    padding: 120px 0;
-
-}
-
 .first-section-h {
     font-weight: 700;
     font-size: 56px;
@@ -322,7 +317,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--SLATe);
-    margin-bottom: 30px;
+    text-align: center;
 
 }
 
@@ -331,10 +326,10 @@ body {
 }
 
 .team-description {
-    padding-top: 30px;
+    padding: 32px 0px;
 }
 
-.team-description h3 {
+.team-description-h3 {
     margin-bottom: 10px;
 }
 
@@ -498,6 +493,8 @@ img {
 
 .heading {
     margin-bottom: 8px;
+    text-align: center;
+
 }
 
 .team-list {
