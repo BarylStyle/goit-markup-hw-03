@@ -65,7 +65,7 @@ body {
 
 .menu-item {
     gap: 40px;
-    padding: 24px 0 24px;
+    padding: 24px 0;
 
 }
 
@@ -262,8 +262,6 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-bottom: 16px;
-
-
 }
 
 
@@ -402,10 +400,7 @@ body {
     align-items: center;
 }
 
-.hero-content {
-    text-align: center;
-    width: 700px;
-}
+
 
 .offer {
     text-align: center;
@@ -487,7 +482,11 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+}
 
+.hero-content {
+    text-align: center;
+    width: 700px;
 }
 
 .projects-img {
