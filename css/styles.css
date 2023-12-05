@@ -520,3 +520,7 @@ img {
 .link-padding {
     padding: 24px 0;
 }
+
+.bottom {
+    margin-bottom: 16px;
+}
