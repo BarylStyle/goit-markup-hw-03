@@ -524,3 +524,7 @@ img {
 .bottom {
     margin-bottom: 16px;
 }
+
+.gap {
+    gap: 40px;
+}
