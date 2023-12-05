@@ -218,9 +218,9 @@ body {
 }
 
 .advantages-item {
-    max-width: 270px;
     display: inline-block;
-    margin-right: 20px;
+    width: calc((100% - 72px) / 4);
+
 
 }
 
@@ -228,9 +228,7 @@ body {
     margin-right: 0;
 }
 
-.width {
-    width: calc((100% - 72px) / 4);
-}
+
 
 .visually-hidden {
     position: absolute;
