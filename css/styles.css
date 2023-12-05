@@ -259,7 +259,7 @@ body {
     color: var(--first-color-text);
     text-decoration: none;
     display: inline-block;
-    margin-bottom: 16px;
+
 
 
 
@@ -315,7 +315,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--SLATe);
-    text-align: justify;
+    text-align: center;
 
 }
 
@@ -515,4 +515,8 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 
+}
+
+.link-padding {
+    padding: 24px 0;
 }
