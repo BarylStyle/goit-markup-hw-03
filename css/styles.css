@@ -169,7 +169,7 @@ body {
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    display: block;
+    display: inline;
     min-width: 169px;
     height: 56px;
 }
@@ -261,6 +261,9 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-bottom: 16px;
+
+
+
 }
 
 
@@ -293,6 +296,7 @@ body {
     color: var(--color-white);
     margin-bottom: 30px;
     max-width: 496px;
+
 
 }
 
@@ -402,6 +406,7 @@ body {
 .hero-content {
     text-align: center;
     width: 700px;
+
 }
 
 .offer {
@@ -480,12 +485,7 @@ img {
     align-items: center;
 }
 
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
 
-}
 
 .projects-img {
     width: calc((100% - 48px) / 3);
@@ -508,4 +508,11 @@ img {
     flex-wrap: wrap;
     gap: 40px;
     padding: 24px 0;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+
 }
