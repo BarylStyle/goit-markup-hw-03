@@ -76,7 +76,7 @@ body {
 
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+
     line-height: 1.5;
     letter-spacing: 0.32px;
     list-style: none;
@@ -94,9 +94,7 @@ body {
 }
 
 
-.list:hover {
-    color: var(--iris);
-}
+
 
 .contact {
     font-style: normal;
@@ -169,9 +167,10 @@ body {
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    display: inline;
+    display: block;
     min-width: 169px;
     height: 56px;
+    margin: auto;
 }
 
 .hero-btn:hover,
@@ -296,6 +295,7 @@ body {
     color: var(--color-white);
     margin-bottom: 30px;
     max-width: 496px;
+    margin: auto;
 
 
 }
@@ -315,7 +315,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--SLATe);
-    text-align: center;
+    text-align: justify;
 
 }
 
