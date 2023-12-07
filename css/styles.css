@@ -23,12 +23,7 @@ body {
 
 .main-section {
     border-bottom: 1px solid #e7e9fc;
-
 }
-
-
-
-
 
 .logo .link {
     font-size: 18px;
@@ -36,13 +31,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--iris);
     padding: 24px 0;
-
-
-
 }
-
-
-
 
 .logo-footer {
     font-family: "Raleway", sans-serif;
@@ -54,18 +43,14 @@ body {
     text-transform: uppercase;
     color: var(--cloud);
     font-style: normal;
-
 }
 
 .highlight {
     color: var(--iris);
 }
 
-
-
 .menu-item {
     gap: 40px;
-
 }
 
 .menu-item:last-child {
@@ -73,7 +58,6 @@ body {
 }
 
 .list {
-
     font-size: 16px;
     font-style: normal;
 
@@ -93,9 +77,6 @@ body {
     margin-bottom: 72px;
 }
 
-
-
-
 .contact {
     font-style: normal;
     color: var(--SLATE);
@@ -114,8 +95,6 @@ body {
     color: var(--kolo4);
 }
 
-
-
 .advantages-title {
     font-size: 20px;
     text-transform: uppercase;
@@ -128,10 +107,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-
 }
-
-
 
 .span {
     color: var(--first-color-text);
@@ -144,8 +120,6 @@ body {
     background-color: var(--first-color-text);
 }
 
-
-
 .logo-highlight {
     color: var(--first-color-text);
     text-decoration: none;
@@ -154,7 +128,6 @@ body {
 .footer-logo {
     color: #f4f4fd;
 }
-
 
 .hero-btn {
     color: var(--color-white);
@@ -171,6 +144,7 @@ body {
     min-width: 169px;
     height: 56px;
     margin: auto;
+    margin-top: 56px;
 }
 
 .hero-btn:hover,
@@ -207,12 +181,6 @@ body {
     list-style-type: none;
 }
 
-.submenu-list {
-    margin: auto;
-    width: 580px;
-    padding: 96px 0 120px 0;
-}
-
 .advantages {
     padding: 120px 0;
 }
@@ -220,15 +188,11 @@ body {
 .advantages-item {
     display: inline-block;
     width: calc((100% - 72px) / 4);
-
-
 }
 
 .advantages-item:last-child {
     margin-right: 0;
 }
-
-
 
 .visually-hidden {
     position: absolute;
@@ -242,10 +206,6 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
-
-
-
 
 .paragraph {
     font-size: 16px;
@@ -261,13 +221,7 @@ body {
     color: var(--first-color-text);
     text-decoration: none;
     display: inline-block;
-
-
-
-
 }
-
-
 
 .list .link:hover,
 .list .link:focus {
@@ -285,6 +239,7 @@ body {
     letter-spacing: 0.02em;
     padding-left: 0px;
     padding-top: 20px;
+    width: 264px;
 
 }
 
@@ -298,8 +253,6 @@ body {
     margin-bottom: 30px;
     max-width: 496px;
     margin: auto;
-
-
 }
 
 .button-first-section {
@@ -309,7 +262,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-
 }
 
 .paragraph-main {
@@ -317,11 +269,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--SLATe);
-    text-align: center;
-
+    text-align: left;
 }
 
-.team-photo {
+.paragraph-name .team-photo {
     margin-bottom: 30px;
 }
 
@@ -337,7 +288,6 @@ body {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-
     color: var(--first-color-text);
     margin: 0;
     margin-bottom: 72px;
@@ -360,7 +310,6 @@ body {
     border-radius: 0px 0px 4px 4px;
     max-width: 270px;
     display: inline-block;
-
     width: calc((100% - 72px) / 4);
 }
 
@@ -394,7 +343,6 @@ body {
     color: var(--iris);
     font-style: normal;
     margin-right: 76px;
-
 }
 
 .hero {
@@ -408,7 +356,6 @@ body {
 .hero-content {
     text-align: center;
     width: 700px;
-
 }
 
 .offer {
@@ -428,7 +375,6 @@ body {
 
 .submenu-list {
     margin: auto;
-    width: 580px;
     padding: 96px 0 120px 0;
 }
 
@@ -445,8 +391,6 @@ body {
     row-gap: 48px;
     column-gap: 24px;
 }
-
-
 
 .projects-description {
     border: 1px solid var(--Lavender);
@@ -468,8 +412,6 @@ img {
     display: block;
 }
 
-/* Flex  */
-
 .nav {
     display: flex;
     justify-content: flex-start;
@@ -477,6 +419,7 @@ img {
     align-items: center;
     gap: 40px;
     list-style: none;
+    font-weight: 500;
 }
 
 .header {
@@ -487,8 +430,6 @@ img {
     align-items: center;
 }
 
-
-
 .projects-img {
     width: calc((100% - 48px) / 3);
 }
@@ -496,7 +437,6 @@ img {
 .heading {
     margin-bottom: 8px;
     text-align: center;
-
 }
 
 .team-list {
@@ -516,7 +456,6 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-
 }
 
 .link-padding {
