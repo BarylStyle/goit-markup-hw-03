@@ -97,7 +97,6 @@ body {
 
 .advantages-title {
     font-size: 20px;
-    text-transform: uppercase;
     margin-bottom: 8px;
 }
 
@@ -238,7 +237,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding-left: 0px;
-    padding-top: 20px;
     width: 264px;
 
 }
@@ -384,7 +382,6 @@ body {
 }
 
 .projects-list {
-    padding-bottom: 94px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
